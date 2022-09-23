@@ -1,0 +1,27 @@
+package mame;
+import java.util.Scanner;
+public class mame {
+	public static void main (String[]args) {
+		int i,id,at,an,ma,me,p1,p2;
+		Scanner in = new Scanner(System.in);
+		i=0;
+		id=0;
+		ma=0;
+		me=0;
+		while (i<=9) {
+			System.out.println("Digite o ano de nascimento");
+			an = in.nextInt();
+			System.out.println("Digite o ano atual");
+			at = in.nextInt();
+			id=at-an;
+			if (id>=18) {
+				System.out.println("Você já é maior de idade, sua idade é: "+id);
+			}else {
+				System.out.println("Você ainda é menor de idade, sua idade é: "+id);
+			}i++;
+		}me=10-ma;
+		p1= (ma*1000)/100;
+		System.out.println("São "+p1+"% dos usuários maiores de idade");
+		p2= (me*1000)/100;
+	}
+}

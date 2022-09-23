@@ -1,0 +1,27 @@
+<html>
+    <head>
+    <title>java script</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            //document.write("Hello World");
+            //alert("Ola Mundo");
+            var n1,n2,n3,n4,m,n;
+            n = prompt("Digite seu nome");
+            n1 = parseFloat(prompt("Digite a 1° nota"));
+            n2 = parseFloat(prompt("Digite a 2° nota"));
+            n3 = parseFloat(prompt("Digite a 3° nota"));
+            n4 = parseFloat(prompt("Digite a 4° nota"));
+            
+            m=(n1+n2+n3+n4)/4;
+    
+            if (m<=3  ){
+                alert (n+ " Aluno retido");
+            }else if(m<=6){
+                alert (n+" aluno em exame");
+            }else{
+                alert (n+ " aluno promovido");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+import java.util.Scanner
+public class tabuada {
+	public static void main (String[]args) {
+		int i,r,n,z;
+		i=0;
+		r=0;
+		n=0;
+		z=0;
+		
+	}
+}

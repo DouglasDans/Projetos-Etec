@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root {
+    --white: #FFF;
+    --whitesmoke: whitesmoke;
+
+    --gray-50: #F7F8FA;
+    --gray-100: #E6E8EB;
+    --gray-200: #42464d;
+    --gray-500: #282b30;
+    --gray-800: #1e2124;
+  
+    --green-500: #04D361;
+    
+    --purple-300: #9F75FF;
+    --purple-400: #9164FA; 
+    --purple-500: #8257E5;
+    --purple-800: #6F48C9;
+
+    --orange-100: #f1c9a9;
+    --orange-500: orange;
+    --red-500: #be0b0b;
+
+    --blue-1: #766b88;
+    --blue-2: #38364a;
+    --blue-3: #2E2f45;
+    --blue-4: #2b89e0;
+
+
+
+  }
+
+    @media(max-width: 1080px) {
+        html {
+            font-size:93.75%;
+        }
+    }
+    @media(max-width: 720px) {
+        html {
+
+    font-size:87.5%;
+        }
+
+    }
+
+    body{
+        background: var(--gray-500);
+        color:var(--whitesmoke);
+        font-family: Lexend, sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 , p {
+
+        font-weight:680;
+        font-family: Lexend, sans-serif;
+
+        margin-bottom: 1rem;
+        
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+    a{
+        position: relative;
+        color:var(whitesmoke);
+        text-decoration:none;
+        font-family: Lexend, sans-serif;
+        transition: 0.5s;
+
+
+    }
+    a:hover{
+
+        border-color:var(--orange-500);
+        color:var(--orange-100);
+
+    }
+    /*a:after{
+
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 3px;
+        top: 100%;
+        left: 0;
+        background:var(--orange-500);
+        transition: transform 0.5s;
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+
+    
+    
+
+    a:hover::after {
+
+        transform: scaleX(1);
+        transform-origin: left;
+
+    }*/
+
+    .LogoBatata{
+        padding-right: 10px;
+        width:50px;
+    }
+    #logo{
+        color: var(--green-500);
+        position: absolute;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        text-align: center;
+        align-items: center;
+       
+    }
+
+    #header{
+        background-color:var(--gray-800);
+        width:100%;
+        position:relative;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left:5%;
+        padding-right:5%;
+        height: 70px;
+        align-items:center;
+        display: flex;
+        justify-content: space-between;
+        /* border-bottom: 2px solid var(--purple-800) ; */
+
+    }
+    #menu{
+        padding-top: 0rem;
+        display:flex;
+        list-style: none;
+        gap: .5rem;
+    }
+
+    #menu a {
+        color: var(--green-500);
+        display:block;
+        padding: .5rem;
+
+    }
+
+    
+
+
+    /* BANNER BRABO */
+
+    .section-top{
+        position: relative;
+        width:100%;
+        min-width: 100%;
+        height:40rem;
+        background:var(--gray-500);
+        background-repeat: no repeat;
+        background-size:cover;
+        background-image: url(../images/wp2210341.jpg);
+        align-items:center;
+        display: flex;
+        flex-direction:row-reverse;
+        font-family: Lexend, sans-serif;
+    }
+
+    /*LADO DO TEXTO DA FORÇA*/
+
+
+    .content{
+        min-width:100%;
+        position: relative;
+        width:100%;
+        text-transform:capitalize;
+        
+    }
+
+    .content h1{
+        
+        padding-left:5%;
+        color:var(--gray-50);
+        margin-bottom:.5rem;
+    
+    }
+
+    .content p{
+        padding-left:5%;
+       color: var(--gray-100);
+       margin-bottom:2.5rem;
+    }
+
+    .Grafico{
+
+        align-items: center;
+        position: relative;
+        margin: 0 auto;
+        width: 90%; 
+        /* border: 2px solid var(--purple-800) ; */
+        
+    }
+
+    /* PAINEL */
+
+    .Painel{
+
+        align-items:center;
+        display: flex;
+        padding-left:5%;
+        width: 100%;
+    }
+
+    /* Main */
+
+    .Main{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .cardConsole {
+        border-radius: 2rem;
+        margin: 1rem;
+        background:var(--gray-800);
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+    .cardConsole div img{
+        border-radius: 2rem;
+        padding: 1rem;
+        height: 100%;
+        width: 500px;
+        object-fit: cover;
+        align-items: center;
+        display: flex;
+    }
+
+    @media(max-width: 880px) {
+        .cardConsole {
+            flex-wrap: wrap
+        }
+        .cardConsole div img{
+            align-items: center;
+            width: 100%;
+            
+        }
+    }
+    
+
+    
+
+    .ImgMain{
+        width: auto;
+    }
+
+    .Colocacoes{
+        padding:2% 5%;
+        background-repeat: no-repeat;
+
+        
+    }
+    .Colocacoes h6,h4{
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .Colocacoes p {
+        padding-top: 1rem;
+        text-align: justify;
+    }
+
+
+
+    /* PAGINA DE CONTATO */
+
+    .sobre{
+        padding: 2% 5%;
+    }
+    
+    #map{
+        border-radius: 2rem;
+    }
+
+
+    /* ADM */
+
+    .flex{
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .flex .card-form{
+        background-color: var(--gray-800);
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        border-radius: 2rem;
+        margin: 1rem;
+    }
+
+    .card-form div{
+        padding-bottom: 2rem;
+    }
+
+    .add-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .add-form input,textarea{
+        background: var(--gray-200);
+        border: none;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        color: var(--white);
+    }
+
+
+    .add-form #validar{
+        background: var(--green-500);
+        border: none;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        color: var(--white);
+
+    }
+
+    /* CARDS ADM */
+
+    .cartao{
+        background-color: var(--gray-800);
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        border-radius: 2rem;
+        margin: 1rem;
+        text-align: left;
+    }
+
+    
+
+    .cartao h5,h6{
+        padding: 0;
+        margin: 0;
+    }
+
+    .cartao .info-data{
+        padding-top: 0.7rem;
+        margin: 0;
+        font-size: 0.8rem;
+    }
+
+    .cartao .info-geracao{
+    
+        margin: 0;
+        font-size: 0.8rem;
+    }
+
+    .cartao .info-vendas{
+        padding-bottom: 1rem;
+        margin: 0;
+        font-size: 0.8rem;
+    }
+
+    .botoes-concard{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cartao .cd-body .button-selecionar{
+        background: var(--green-500);
+        border: none;
+        padding: 0.5rem;
+        border-radius: 0.8rem;
+        margin-bottom: 1rem;
+        color: white
+    }
+
+    .cartao .cd-body .button-excluir{
+        background:var(--purple-500);
+        border: none;
+        padding: 0.5rem;
+        border-radius: 0.8rem;
+        margin-bottom: 1rem;
+        color: white
+    }
+
+    /* FORM DE LOGIN */
+
+
+    .containerLogin{
+
+        flex:1;
+        width:50%;
+        margin:10% auto;
+
+        justify-content: center;
+        align-items: center;
+    }
+    .topLogin{
+        flex:1;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    .topTitulo{
+        display: flex;
+    }
+    .mainLogin{
+        flex: 1;
+        align-items: center;
+        justify-content:center;
+        width:100%;
+        
+        flex-direction: row;
+    }
+    .loginText{
+        background: var(--gray-200);
+        border: none;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        color: var(--white);
+        width:100%;
+        font-size: 17px;
+        margin-bottom: 15px;
+        border-radius: 7px;
+        padding: 10px;
+        font-family: Lexend, sans-serif;
+    }
+    .btnSubmit{
+        width:100%;
+        height:75px;
+        background:var(--green-500);
+        color:var(--gray-200);
+        font-size: 20px;
+        font-family: Lexend, sans-serif;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    .newsletter{
+        margin-top: 5%;
+    }
+    .newsletter .btnSubmit{
+        width:30%; 
+        height: 50px;
+    }
+    .newsletter .loginText{
+        width:70%;
+    }

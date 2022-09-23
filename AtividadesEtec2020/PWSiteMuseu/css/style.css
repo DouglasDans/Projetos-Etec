@@ -1,0 +1,272 @@
+@font-face {
+    font-family: font;
+    src: url(font.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: font;
+}
+
+.bg-pers1 {
+    background-color: rgb(24, 24, 32);
+}
+
+.bg-blur {
+    backdrop-filter: blur(5px)
+}
+
+.bg-pers0 {
+    background-color: #000000d2 !important;
+}
+
+.bg-pers2 {
+    background-color: #141517a2 !important;
+}
+
+.bg-pers1 {
+    background-color: #00000042 !important;
+}
+
+.bg-dropdown {
+    background-color: #090A0A !important;
+}
+
+.text-dropdown {
+    color: white;
+}
+
+.text-dropdown:hover {
+    opacity: 0.5;
+    color: white;
+    background-color: #090A0A !important;
+}
+
+header {
+    font-weight: bold;
+}
+
+.menu {
+    border-bottom: gold;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.bordaGaleria {
+    border-bottom: gold;
+    border-top: gold;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.textoMenu {
+    color: white;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    opacity: 0.5;
+    color: white;
+}
+
+.gta-gCard:hover {
+    opacity: 0.5;
+}
+
+.home-img {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/talvezhome.jpg);
+    background-repeat: round;
+}
+
+.imgDestaqueMenu {
+    border-radius: 50%;
+    border: gold;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.divDestaqueMenu {
+    border-top: gold;
+    border-top-style: solid;
+    border-top-width: 2px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: gold;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    background-color: rgb(14, 14, 14) !important;
+}
+
+.bordaTopo {
+    border-top: gold;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.parceria {
+    border-bottom: gold;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.areaLogin {
+    border: gold;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.bigode {
+    height: 100px;
+    width: auto;
+}
+
+.bordaRodape {
+    border-top: gold;
+    border-width: 1px;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.textoRodape {
+    text-decoration: none;
+    color: #8C8C8C;
+}
+
+.textoRodape:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.linhaTitulo {
+    border-bottom: gold;
+    border-width: 2px;
+    border-bottom-style: solid;
+}
+
+.obraHome {
+    height: 600px;
+    width: auto;
+}
+
+.vetorExposicao {
+    height: 200px;
+    width: auto;
+}
+
+.vetorArtista {
+    height: 160px;
+    width: auto;
+}
+
+.labelFormulario {
+    font-weight: bold;
+    font-size: 2 rem;
+}
+
+.bgEquipe {
+    background-color: #DBDBDB;
+}
+
+.fotoEquipe {
+    width: 150px;
+    height: 150px;
+}
+
+.btn-cadastro {
+    color: gray;
+}
+
+.btn-cadastro:hover {
+    color: black;
+}
+
+#logo {
+    height: 9%;
+}
+
+.atracaoMuseu {
+    background-color: rgba(24, 24, 32, 0.9);
+    margin-top: -5%;
+}
+
+.hoverzoom {
+    position: relative;
+    width: 320px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.hoverzoom img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-transition: all .8s cubic-bezier(.150, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.150, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.150, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.150, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.150, 1.000, .220, 1.000);
+}
+
+.hoverzoom:hover img {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.hoverzoom .retina {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    text-align: center;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.hoverzoom:hover .retina {
+    opacity: 1;
+    backdrop-filter: blur(5px)
+}
+
+.hoverzoom .retina p {
+    color: #fff;
+}
+
+.hoverzoom .retina a {
+    display: block;
+    width: 150px;
+    background: #1d3857;
+    border: 1px solid #59afd4;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 16px auto 0;
+}
+
+.subtitulo-obra {
+    color: #B0B0B0;
+}
+
+.texto-obra {
+    color: #999999;
+}

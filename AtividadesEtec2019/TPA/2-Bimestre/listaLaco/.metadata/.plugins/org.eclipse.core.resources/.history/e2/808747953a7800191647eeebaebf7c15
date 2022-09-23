@@ -1,0 +1,16 @@
+package programaTabuada;
+
+public class programaTabuada {
+	public static void main(String[]args) {
+		int i,r,z;
+		i=0;
+		r=0;
+		z=0;
+		System.out.println(+z);
+		while (i<=503) {
+			r=r+4;
+			System.out.println(+r);
+			i++;
+		}
+	}
+}

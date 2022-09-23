@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;programaTabuada.programaTabuada&apos; to &apos;bissexto&apos;&#x0D;&#x0A;- Original project: &apos;programaTabuada&apos;&#x0D;&#x0A;- Original element: &apos;programaTabuada.programaTabuada&apos;&#x0D;&#x0A;- Renamed element: &apos;programaTabuada.bissexto&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;programaTabuada&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;programaTabuada{programaTabuada.java[programaTabuada" matchStrategy="1" name="bissexto" qualified="false" references="true" similarDeclarations="false" stamp="1558052862071" textual="false" version="1.0"/>
+</session>

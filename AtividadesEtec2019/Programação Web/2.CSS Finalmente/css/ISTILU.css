@@ -1,0 +1,22 @@
+body{
+    background:#ececec;
+    color:#000000;
+    font-family: century gothic;
+    margin:0;
+}
+h1{
+    font-size: 80px;
+    background: red;
+    height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+p{
+    margin-left: 50px;
+    font-size: 20px;
+}
+img{
+    width: 200px;
+    margin: auto;
+    border-radius: 100px;
+}

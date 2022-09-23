@@ -1,0 +1,54 @@
+@font-face {
+            font-family:font;
+            src: url(font.ttf) /*Para os demais navegadores*/;
+            font-weight: normal;
+            font-style: normal;
+}
+body{
+    font-family: font;
+}
+.cont-form{
+    background-color: white;
+    border-radius: 20px;
+}
+header{
+    font-weight: bold;
+    margin-bottom: 56px;
+}
+.nav-item :hover{
+    color: red;
+}
+.nav-link{
+    color: black;
+}
+.dropdown-toggle{
+    font-weight: bold;
+    color: black;
+}
+.card{
+    border-radius: 10px
+}
+footer{
+    position: sticky;
+}
+div .card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+p{
+    border-radius: 10px;
+}
+.orc{
+    border-radius: 10px;
+}
+.idx-logo{
+    background-color: black;
+}
+.red-btn{
+    font-weight: bold;
+    background-color: red;
+    
+}
+button .red-btn :hover{
+    background-color: #550000;
+}

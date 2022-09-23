@@ -1,0 +1,81 @@
+@font-face {
+            font-family:font;
+            src: url(font.ttf) /*Para os demais navegadores*/;
+            font-weight: normal;
+            font-style: normal;
+}
+body{
+    font-family: font;
+    background-color: #f2f2f2;
+    
+}
+.user{
+    width: 150px;
+    height: 150px;
+}
+nav{
+    background-color: #212529 !important;
+}
+header{
+    font-weight:bold;
+    margin-bottom: 61px;
+    width: 100%;
+}
+.nav-item :hover{
+    background-color: #999;
+    color:black;
+}
+.nav{
+    margin-left: 9%;
+}
+.nav-link{
+    color: #b2b2b2;
+    text-align: center;
+}
+.logout :hover{
+    background-color: #999;
+    color:black;
+}
+.dropdown-toggle{
+    font-weight: bold;
+    color: white;
+}
+.idx-banner{
+    z-index: 0;
+    top: -40%;
+    position: relative;
+}
+.indexbg{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin-left: -50%;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+.indexprlx{
+    margin-top: 4%;
+    background-color:#f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.card{
+    position: relative
+    border-radius: 10px;
+}
+footer{
+    background-color: #212529;
+    bottom: 0px;
+}
+div .card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+p{
+    border-radius: 10px;
+}
+.orc{
+    border-radius: 10px;
+}

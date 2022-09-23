@@ -1,0 +1,65 @@
+@font-face {
+            font-family:font;
+            src: url(font.ttf) /*Para os demais navegadores*/;
+            font-weight: normal;
+            font-style: normal;
+}
+body{
+    font-family: font;
+    background-color:gainsboro;    
+}
+.nav-color{
+    background-color: #212529 !important;
+}
+header{
+    font-weight:bold;
+    margin-bottom: 96px;
+}
+.nav-link{
+    color: white;
+    padding: 0;
+    padding-left: 25px;;
+}
+.nav-link:hover{
+    opacity: 0.5;
+    color: white;
+}
+.dropdown-toggle{
+    font-weight: bold;
+    color: white;
+}
+.bg-img{
+    filter: brightness(0.2);
+    width: 100%;
+    z-index: 0;
+}
+footer{
+    background-color: #212529;
+    
+}
+p{
+    font-size: 20px;
+}
+.small-card{
+    font-weight:bold;
+}
+.prdt-livro{
+    width: 100%;
+    position:relative;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.nav-menu{
+    top:-2px;
+}
+footer div small {
+    font-size: 10px;
+}
+.btn-black{
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-weight: bold;
+}

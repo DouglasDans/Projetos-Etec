@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Exercicio</title>
+    </head>
+    <body>
+        <center><h1>Emissão de nota</h1></center>
+        <form>
+            <label>Cliente:</label>
+            <input type="text" name="txtCliente" id="txtCliente">
+            <br>
+            <label>Endereço:</label>
+            <input type="text" name="txtEndereço" id="txtEndereço">
+            <label>n°:</label>
+            <input type="text" name="textN°" id="textN°">
+            <br>
+            <label>Complemento:</label>
+            <input type="text" name="txtComplemento" id="txtComplemento">
+            <label>Bairro:</label>
+            <input type="text" name="txtBairro" id="txtBairro">
+            <br>
+            <label>Cidade:</label>
+            <input type="text" name="txtCidade" id="txtCidade">
+            <label>UF:</label>
+            <select name="slUf" id="slUf">
+                <option>selecione</option>
+                <option>Al</option>
+                <option>AM</option>
+                <option>ES</option>
+                <option>MG</option>
+                <option>PB</option>
+                <option>PR</option>
+                <option>Rj</option>
+                <option>SP</option>
+                <option>TO</option>
+            </select>
+            <br>
+            <center><h1>Produtos</h1></center>
+            <table border="1">
+                <tr>
+                    <td>.</td>
+                    <td width="130px">Descrição</td>
+                    <td width="100px">Valor Unitario</td>
+                    <td width="100px">Quantidade</td>
+                </tr>    
+                <tr>
+                    <td> <input type="checkbox"></td>
+                    <td width="130px">Playstation 5 pro 2</td>
+                    <td width="100px">R$2000,00</td>
+                    <td width="10px"> <input type="text" size="10"></td>
+                </tr>
+                <tr>
+                    <td> <input type="checkbox"></td>
+                    <td width="130px">Xbox 566</td>
+                    <td width="100px">R$5000,00</td>
+                    <td width="10px"> <input type="text" size="10"></td>
+                </tr>
+                <tr>
+                     <td> <input type="checkbox"></td>
+                    <td width="130px">Nintendo 5895</td>
+                    <td width="100px">R$10000,00</td>
+                    <td width="10px"> <input type="text" size="10"></td>
+                </tr>
+            </table>       
+            <label>Forma de pagamento:</label>  
+            <input type="radio" name="rbPagamento" id="rbPagamento">Boleto
+            <input type="radio" name="rbPagamento" id="rbPagamento">Débito em conta
+            <input type="radio" name="rbPagamento" id="rbPagamento">Crédito
+            <br>
+            <input type="reset" value="Cancelar">
+            <input type="submit" value="salvar">
+        </form>
+    </body>
+
+</html>

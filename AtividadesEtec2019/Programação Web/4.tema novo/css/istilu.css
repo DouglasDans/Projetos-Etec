@@ -1,0 +1,59 @@
+@font-face {
+            font-family:font;
+            src: url(font.ttf) /*Para os demais navegadores*/;
+            font-weight: normal;
+            font-style: normal;
+}
+body{
+    font-family: font;
+    background-color: #f2f2f2;
+    
+}
+nav{
+    background-color: #212529 !important;
+}
+header{
+    font-weight:bold;
+    margin-bottom: 61px;
+}
+.nav-item :hover{
+    color: skyblue;
+}
+.nav-link{
+    color: white;
+}
+.dropdown-toggle{
+    font-weight: bold;
+    color: white;
+}
+.indexbg{
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+.idx-banner{
+    z-index: 0;
+    top: -90%;
+    position: relative;
+}
+
+
+
+.card{
+    position: relative
+    border-radius: 10px;
+}
+footer{
+    background-color: #212529;
+    bottom: 0px;
+}
+div .card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+p{
+    border-radius: 10px;
+}
+.orc{
+    border-radius: 10px;
+}

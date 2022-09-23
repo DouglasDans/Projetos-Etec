@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(skyblue,blue);
+    margin: 0px;
+}
+.g{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+.j{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 50px;
+}
+.j:hover{
+    color:yellow;
+}
+.p{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 150px;
+}
+.d{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}

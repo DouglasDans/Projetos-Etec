@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/istilu.css">
+    </head>
+    <body>
+        <center>
+        <form name="formcalcular">
+            n1:
+            <input type="text" id = "txtn1" name="txtn1">
+            <br>
+            n2:
+            <input type="text" id = "txtn2" name="txtn2" style="margin-top:  15px; margin-bottom: 15px">
+            <br>
+            <input type="button" onclick="somar()" value="+" style="margin-right: 25px; margin-bottom: 10px">
+            <input type="button" onclick="subtração()" value="-">
+            <br>
+            <input type="button" onclick="multiplicação()" value="*" style="margin-right: 25px">
+            <input type="button" onclick="divisão()" value="/">
+        </form>
+        </center>
+        <script>
+            function somar(){
+                var n1,n2,soma;
+                n1=parseInt(document.getElementById("txtn1").value);
+                n2=parseInt(document.getElementById("txtn2").value);
+                soma=n1+n2;
+                alert("a soma é: "+soma);
+            }
+            
+             function subtração(){
+                var n1,n2,subtracao;
+                n1=parseInt(document.getElementById("txtn1").value);
+                n2=parseInt(document.getElementById("txtn2").value);
+                subtracao=n1-n2;
+                alert("a subtração é: "+subtracao);
+            }
+            
+            function multiplicação(){
+                var n1,n2,multiplicacao;
+                n1=parseInt(document.getElementById("txtn1").value);
+                n2=parseInt(document.getElementById("txtn2").value);
+                multiplicacao=n1*n2;
+                alert("a multiplicação é: "+multiplicacao);
+            }
+            
+            function divisão(){
+                var n1,n2,divisao;
+                n1=parseInt(document.getElementById("txtn1").value);
+                n2=parseInt(document.getElementById("txtn2").value);
+                divisao=n1/n2;
+                alert("a divisão é: "+divisao);
+            }
+        </script>
+    </body>
+</html>

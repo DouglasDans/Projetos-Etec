@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Exercicio 4</title>
+    </head>    
+    <body>
+        <script type="text/javascript">
+            var n,i,c,c2="";
+            n = (prompt("Digite o Nome/Frase Palíndromo"));
+            c=n;
+            while(n.indexOf(" ")>=0){
+                n=n.replace(" ","")
+            }
+            for (i=n.length-1;i>=0;i--){
+                c2=c2+n.charAt(i);
+            }
+            if (c2.localeCompare (n)==0){
+                alert("Essa Palavra/Frase é palíndromo")
+            }else{
+                alert("Essa Palavra/Frase não é palíndromo, é comum como as outras")
+            }
+        </script>
+    </body>
+</html>

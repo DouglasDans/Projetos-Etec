@@ -1,0 +1,35 @@
+.prlx-img{
+    height: 30px;
+    width: auto;
+}
+.nav{
+    background-color:   #9C2E1F;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+.danylo{
+    text-align: center;
+    background-color: #9C2E1F;
+    color: black;
+}
+footer p {
+    margin: 0px;
+    font-size: 10px
+}
+body{
+    background-image: linear-gradient(black,black);
+}
+.btn-danger{
+    background-color: darkred;
+}
+.card{
+    background-image: linear-gradient(whitesmoke,whitesmoke);
+    border-color: dodgerblue;
+    border-style: solid;
+}
+.pps{
+    width:60px;
+    height: 60px;
+    border-radius: 40px;
+    text-align: center;
+}

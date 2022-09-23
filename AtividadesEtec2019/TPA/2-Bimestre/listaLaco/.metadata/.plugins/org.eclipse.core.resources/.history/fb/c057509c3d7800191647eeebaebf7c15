@@ -1,0 +1,15 @@
+package mame;
+import java.util.Scanner;
+public class mame {
+	public static void main (String[]args) {
+		int i,id,at,an,ma,me,p1,p2;
+		Scanner in = new Scanner(System.in);
+		i=0;
+		id=0;
+		ma=0;
+		me=0;
+		while (i<=9) {
+			System.out.println("Digite o ano de nascimento");
+		}
+	}
+}

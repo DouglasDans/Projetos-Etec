@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+E:\1°Mtec A\2° Bi\TPA\listaLaco\.metadata\.plugins\org.eclipse.jdt.core
+2643291102.index
+1852870697.index
+2971701134.index
+219091886.index
+1896233950.index
+352108186.index
+1444141859.index
